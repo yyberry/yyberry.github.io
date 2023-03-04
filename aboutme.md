@@ -1,16 +1,17 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: I am currently an internation student majoring in Computer Science at Denmark.
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Jingyu Huang. I show insterests in the following areas:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Image Processing
+- Data Science
 
-What else do you need?
+Please hit me up if you wanna know further about me.
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Københavns Universitet, Master of Science, 2021 to 2023
+Graduated from Jilin University, Bachelor of Science, 2017 to 2021
