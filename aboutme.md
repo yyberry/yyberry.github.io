@@ -14,4 +14,5 @@ Please hit me up if you wanna know further about me.
 ### My story
 
 Københavns Universitet, Master of Science, 2021 to 2023
+
 Graduated from Jilin University, Bachelor of Science, 2017 to 2021
