@@ -8,6 +8,8 @@ share-img: /assets/img/cover1.jpeg
 tags: [LeetCode, Bianry Search]
 ---
 
+This is a learning note related to the binary search algorithm. It contains the basic ideas of the solutions to the problems of binary search in the LeetCode and the specific solution and codes of these problems.
+
 ## Bianry Search
 
 ### Basic Ideas
