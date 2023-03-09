@@ -2,9 +2,9 @@
 layout: post
 title: LeetCode - Binary Search
 subtitle: This is the learning notes for Binary Search 
-# cover-img: /assets/img/jp_culture.jpg
-# thumbnail-img: /assets/img/flash_guy.jpg
-# share-img: /assets/img/jp_culture.jpg
+cover-img: /assets/img/cover1.jpeg
+thumbnail-img: /assets/img/thumbnail1.jpeg
+share-img: /assets/img/cover1.jpeg
 tags: [LeetCode, Bianry Search]
 ---
 
