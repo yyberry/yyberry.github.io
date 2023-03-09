@@ -12,7 +12,7 @@ tags: [LeetCode, Bianry Search]
 
 ### Basic Ideas
 
-1. Define a auxiliary function $f$ that presents the relationship between $x$ with $f(x)$, and given a $target$ where $target = f(x_i)$. $x$ is what the the question asked for.
+1. Define a auxiliary function $f$ that presents the relationship between $x$ with $f(x)$, and given a $target$ where $target = f(x_i)$. $x$ is what the the questionavatar-icon.png 19-42-48-801 asked for.
 2. according the question to decide whether the left or right boundary is required. Using binary search to get the required boundary.
 
 ### Leetcode
