@@ -3,7 +3,7 @@ layout: post
 title: LeetCode - Binary Search
 subtitle: This is the learning notes for Binary Search 
 cover-img: /assets/img/cover1.png
-thumbnail-img: /assets/img/thumbnail1.jpeg
+# thumbnail-img: /assets/img/thumbnail1.jpeg
 share-img: /assets/img/cover1.png
 tags: [LeetCode, Bianry Search]
 ---
