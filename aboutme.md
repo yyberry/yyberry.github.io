@@ -7,15 +7,16 @@ subtitle: I am currently an internation student majoring in Computer Science at 
 My name is Jingyu Huang. I show insterests in the following areas:
 
 - Image Processing
+- Deep Learning
 - Data Science
 
 Please hit me up if you wanna know further about me.
 
-### My story
+### Education
 
 Københavns Universitet, Master of Science, 2021 to 2023
 
-Graduated from Jilin University, Bachelor of Science, 2017 to 2021
+Graduated from Jilin University, Bachelor of Engineering, 2017 to 2021
 
 
 ### Resúme

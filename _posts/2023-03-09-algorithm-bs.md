@@ -1,25 +1,23 @@
 ---
 layout: post
-title: LeetCode - Binary Search
+title: Binary Search
 subtitle: This is the learning notes for Binary Search 
 # cover-img: /assets/img/cover1.png
 # thumbnail-img: /assets/img/thumbnail1.jpeg
 # share-img: /assets/img/cover1.png
-tags: [LeetCode, Bianry Search]
+tags: [Bianry Search, Algorithms]
 ---
 
-This is a learning note related to the binary search algorithm. It contains the basic ideas of the solutions to the problems of binary search in the LeetCode and the specific solution and codes of these problems.
+This is a learning note related to the binary search algorithm. It contains the basic ideas of the binary search and some practice examples. 
 
 ## Bianry Search
 
-### Basic Ideas
+Binary Search is a basic algorithm used to search specific value in an ordered array. The basic idea of binary search is to divide n elements into two roughly equal parts and compare `a[n/2]` with `x`. if `x = a[n/2]`, x is found and the algorithm is aborted. If `x<a[n/2]`, then continue searching for `x` in the left half of array `a`, if `x>a[n/2]`, then just search for `x` in the right half of array `a`. The time complexity is the number of loops.
+
+### Practice
 
 1. Define a auxiliary function $f$ that presents the relationship between $x$ with $f(x)$, and given a $target$ where $target = f(x_i)$. $x$ is what the the questionavatar-icon.png 19-42-48-801 asked for.
 2. according the question to decide whether the left or right boundary is required. Using binary search to get the required boundary.
-
-### Leetcode
-
-#### 2023-03-09
 
 * 1011 Capacity To Ship Packages Within D Days
 
