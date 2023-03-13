@@ -5,7 +5,7 @@ subtitle: This is the learning notes for Binary Search
 # cover-img: /assets/img/cover1.png
 # thumbnail-img: /assets/img/thumbnail1.jpeg
 # share-img: /assets/img/cover1.png
-tags: [Bianry Search, Algorithms]
+tags: [Algorithms]
 ---
 
 This is a learning note related to the binary search algorithm. It contains the basic ideas of the binary search and some practice examples. 
