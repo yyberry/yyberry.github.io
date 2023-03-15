@@ -122,4 +122,3 @@ The sliding window algorithm is actually the same as this protocol, but the impl
     }
     ```
 
-    
