@@ -26,7 +26,7 @@ where $|X\cap Y|$ is the intersaction between $X$ and $Y$, $|X|$ and $|Y|$ repre
 
 More intuitively, the function can be illustrated as following:
 
-![](/Users/hjy/yyberry/yyberry.github.io/assets/img/dc1.png)
+![](/assets/img/dc1.png)
 
 For the semantic segmentation problem, **$X$ is the ground truth while Y is the predicted segmentation**.
 
