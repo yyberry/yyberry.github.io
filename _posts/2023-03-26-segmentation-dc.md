@@ -22,7 +22,7 @@ $$
 s = \frac{2|X\cap Y|}{|X|+|Y|}
 $$
 
-where $|X\cap Y|$ is the intersaction between $X$ and $Y$, $|X|$ and $|Y|$ represent the number of elements in $X$ and $Y$, the reason why  coefficient of the numerator is 2 is that the denominator repeatedly calculate the common element between X and Y. 
+where $\|X\cap Y\|$ is the intersaction between $X$ and $Y$, $\|X\|$ and $\|Y\|$ represent the number of elements in $X$ and $Y$, the reason why  coefficient of the numerator is 2 is that the denominator repeatedly calculate the common element between X and Y. 
 
 More intuitively, the function can be illustrated as following:
 
