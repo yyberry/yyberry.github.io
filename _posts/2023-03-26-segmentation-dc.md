@@ -17,9 +17,11 @@ This is a learning note related to the Dice Coefficient and corresponding Dice L
 Dice coefficient is evaluation criteria of sementic segmentation. By computing the **overlap ratio between ground truth and predicted segmentation**, it reflects **the similarity between them**. Its value is in range [0, 1]. The bigger the values is, the more area overlapped, the beeter the segmentation result. 
 
 The function is:
+
 $$
 s = \frac{2|X\cap Y|}{|X|+|Y|}
 $$
+
 where $|X\cap Y|$ is the intersaction between $X$ and $Y$, $|X|$ and $|Y|$ represent the number of elements in $X$ and $Y$, the reason why  coefficient of the numerator is 2 is that the denominator repeatedly calculate the common element between X and Y. 
 
 More intuitively, the function can be illustrated as following:
@@ -50,6 +52,7 @@ def dice_coeff(input, target):
 ### Basic ideas
 
 Dice Loss is the difference between 1 and dice coefficient.
+
 $$
 d = 1 - \frac{2|X\cap Y|}{|X|+|Y|}
 $$
