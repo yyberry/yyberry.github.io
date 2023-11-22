@@ -21,7 +21,7 @@ Graduated from Jilin University, Bachelor of Engineering, 2017 to 2021
 
 ### Resúme
 
-[Download CV](https://yyberry.github.io/assets/files/CV_no.pdf)
+[Download CV](https://yyberry.github.io/assets/files/CV.pdf)
 
 <!-- <a href="https://yyberry.github.io/assets/files/CV.pdf" download> -->
 <!-- <input type="button" style="padding: 5px; background-color: gray; color: white;"> -->
