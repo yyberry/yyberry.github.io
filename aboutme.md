@@ -4,13 +4,6 @@ title: About me
 subtitle: I am eager and ready to start full-time employment immediately.
 ---
 
-My name is Jingyu Huang. I show insterests in the following areas:
-
-- Image Processing
-- Deep Learning
-- Data Science
-
-Please hit me up if you wanna know further about me.
 
 Hello! I'm Jingyu Huang, and I have a keen interest in the following areas:
 
