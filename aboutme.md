@@ -46,7 +46,7 @@ See my Resume for more details.
 
 ### Resúme
 
-[Download CV](https://yyberry.github.io/assets/files/CV.pdf)
+[Download CV 👉](https://yyberry.github.io/assets/files/CV.pdf)
 
 <!-- <a href="https://yyberry.github.io/assets/files/CV.pdf" download> -->
 <!-- <input type="button" style="padding: 5px; background-color: gray; color: white;"> -->
