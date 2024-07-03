@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: I am currently an internation student majoring in Computer Science at Denmark.
+subtitle: I am eager and ready to start full-time employment immediately.
 ---
 
 My name is Jingyu Huang. I show insterests in the following areas:
@@ -11,6 +11,14 @@ My name is Jingyu Huang. I show insterests in the following areas:
 - Data Science
 
 Please hit me up if you wanna know further about me.
+
+Hello! I'm Jingyu Huang, and I have a keen interest in the following areas:
+
+- Image Processing
+- Deep Learning
+- Data Science
+
+I am always excited to share my experiences and insights in these areas. I hope my notes and projects can help others on their learning journey. Thank you for visiting, and feel free to reach out if you'd like to know more about me!
 
 ### Education
 
