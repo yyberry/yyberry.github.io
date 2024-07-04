@@ -84,6 +84,47 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
 
     * Python:
 
+      ```python
+      class Solution(object):
+          def shipWithinDays(self, weights, days):
+              """
+              :type weights: List[int]
+              :type days: int
+              :rtype: int
+              """
+              # x: capacity of the ship
+              # f(x): days of shipping
+              # target: days
+              # find x_1 to make f(x_1)=target         
+              
+              left = max(weights) # left boundary of x
+              right = sum(weights) # right boundary of x
+      
+              while left < right:
+                  mid = left + (right - left) // 2
+                  if self.f(weights, mid) <= days: # dont forget self !!!!
+                      right = mid
+                  else:
+                      left = mid + 1
+              
+              return left
+      
+          def f(self, weights, x):
+              i, l = 0, len(weights)
+              days = 0
+              while i < l:
+                  capacity = x
+                  while i < l: # loops condition
+                      if weights[i] <= capacity:
+                          capacity -= weights[i]
+                          i += 1 # no ++ in python
+                      else:
+                          break
+                  days += 1
+              return days
+      
+      ```
+
 * **875** Koko Eating Bananas
 
   * Questions: Koko loves to eat bananas. There are `n` piles of bananas, the `ith` pile has `piles[i]` bananas. The guards have gone and will come back in `h` hours.
