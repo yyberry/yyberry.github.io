@@ -37,50 +37,50 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
 
     * Java:
 
-    ```java
-    class Solution {
-        public int shipWithinDays(int[] weights, int days) {
-            // set the left and right boundary for capacity, left closed right open
-            int left = 0;
-            int right = 1;
-            for(int w : weights){
-                left = Math.max(left, w);
-                right += w;
-            }
-            
-            // use binary search to get the left boundary
-            while(left < right){
-                int mid = left + (right - left) / 2;
-                if(f(weights, mid) <= days){
-                    right = mid;
-                }
-                else{
-                    left = mid + 1;
-                }
-            }
-    
-            return left;
-        }
-    
-        // auxiliary function
-        // compute the number of days with given capacity
-        public int f(int[] weights, int cap){
-            int days = 0;
-            for(int i = 0; i < weights.length; ){
-                int x = cap;
-                // traverse the list 
-              	// until the packages exceed the maximum weight capacity of the ship
-                while(i < weights.length){
-                    if(x < weights[i]) break;
-                    else x -= weights[i];
-                    i ++;
-                }
-                days ++;
-            }
-            return days;
-        }
-    }
-    ```
+      ```java
+      class Solution {
+          public int shipWithinDays(int[] weights, int days) {
+              // set the left and right boundary for capacity, left closed right open
+              int left = 0;
+              int right = 1;
+              for(int w : weights){
+                  left = Math.max(left, w);
+                  right += w;
+              }
+              
+              // use binary search to get the left boundary
+              while(left < right){
+                  int mid = left + (right - left) / 2;
+                  if(f(weights, mid) <= days){
+                      right = mid;
+                  }
+                  else{
+                      left = mid + 1;
+                  }
+              }
+      
+              return left;
+          }
+      
+          // auxiliary function
+          // compute the number of days with given capacity
+          public int f(int[] weights, int cap){
+              int days = 0;
+              for(int i = 0; i < weights.length; ){
+                  int x = cap;
+                  // traverse the list 
+                	// until the packages exceed the maximum weight capacity of the ship
+                  while(i < weights.length){
+                      if(x < weights[i]) break;
+                      else x -= weights[i];
+                      i ++;
+                  }
+                  days ++;
+              }
+              return days;
+          }
+      }
+      ```
 
     * Python:
 
@@ -122,8 +122,9 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
                           break
                   days += 1
               return days
-      
       ```
+
+  
 
 * **875** Koko Eating Bananas
 
@@ -230,6 +231,8 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
                return -1
        
        ```
+
+    
 
    * **74** Search a 2D Matrix
 
