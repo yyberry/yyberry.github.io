@@ -16,24 +16,26 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
 
 ### Practice
 
-1. Define a auxiliary function $f$ that presents the relationship between $x$ with $f(x)$, and given a $target$ where $target = f(x_i)$. $x$ is what the the questionavatar-icon.png 19-42-48-801 asked for.
+1. Define a auxiliary function $f$ that presents the relationship between $x$ with $f(x)$, and given a $target$ where $target = f(x_i)$. **$x$ is what the the question asked for.**
 2. according the question to decide whether the left or right boundary is required. Using binary search to get the required boundary.
 
-* 1011 Capacity To Ship Packages Within D Days
+* **1011** Capacity To Ship Packages Within D Days
 
-  * Question: A conveyor belt has packages that must be shipped from one port to another within `days` days.
+  * **Question:** A conveyor belt has packages that must be shipped from one port to another within `days` days.
 
     The $i^{th}$ package on the conveyor belt has a weight of `weights[i]`. Each day, we load the ship with packages on the conveyor belt (in the order given by `weights`). We may not load more weight than the maximum weight capacity of the ship.
 
     Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within `days` days.
 
-  * Solution: In this case, $x$ is the maximum capacity of the ship, $f(x)$ is the number of delivery days. the $target$ is given `days` . The relationship between them is as following:
+  * **Solution:** In this case, $x$ is the maximum capacity of the ship, $f(x)$ is the number of delivery days. The $target$ is given `days` . The relationship between them is as following:
 
     <div align = center><img src="/assets/img/bs_f(x).png" style="zoom:30%;" /></div><center> auxiliary function where `target` is D</center>
 
     Here we need to reach the left boundary. Left boundary is the maximum weights amoung the packages, while the right boundary is one more than the sum weight of all packages. **Since the ship should convey at least one package at a time, and at most all package at a time.** And the **package is indivisible**, which means, if there is still capacity left on the ship, but the remaining capacity is less than the package weight, the ship cannot convey a part of the package.
 
-  * Code:
+  * **Code:**
+
+    * Java:
 
     ```java
     class Solution {
@@ -78,8 +80,11 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
             return days;
         }
     }
+    ```
 
-* 875 Koko Eating Bananas
+    * Python:
+
+* **875** Koko Eating Bananas
 
   * Questions: Koko loves to eat bananas. There are `n` piles of bananas, the `ith` pile has `piles[i]` bananas. The guards have gone and will come back in `h` hours.
 
@@ -134,7 +139,7 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
 
     
 
-* 704 Bianry Search
+* **704** Bianry Search
 
   * Question: Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
 
@@ -144,22 +149,48 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
 
   * Code:
 
-    ```java
-    class Solution {
-        public int search(int[] nums, int target) {
-            int left = 0, right = nums.length;
-            while(left < right){
-                int mid = left + (right - left) / 2;
-                if(nums[mid] == target) return mid;
-                else if(nums[mid] > target) right = mid;
-                else left = mid + 1;
-            }
-            return -1;
-        }
-    }
-    ```
+    * Java：
 
-   * 74 Search a 2D Matrix
+      ```java
+      class Solution {
+          public int search(int[] nums, int target) {
+              int left = 0, right = nums.length;
+              while(left < right){
+                  int mid = left + (right - left) / 2;
+                  if(nums[mid] == target) return mid;
+                  else if(nums[mid] > target) right = mid;
+                  else left = mid + 1;
+              }
+              return -1;
+          }
+      }
+      ```
+
+    * Python:
+
+       ```python
+       class Solution(object):
+           def search(self, nums, target):
+               """
+               :type nums: List[int]
+               :type target: int
+               :rtype: int
+               """
+               left, right = 0, len(nums) # assignment statement
+               while left<right: #[...)
+                   mid = left + (right - left) // 2 #to prevent int overflow
+                   if nums[mid]==target:
+                       return mid
+                   elif nums[mid]>target:
+                       right = mid # right open
+                   else:
+                       left = mid + 1 # left closed
+       
+               return -1
+       
+       ```
+
+   * **74** Search a 2D Matrix
 
      * Question: You are given an `m x n` integer matrix `matrix` with the following two properties:
 
