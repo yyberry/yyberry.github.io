@@ -15,7 +15,7 @@ I am always excited to share my experiences and insights in these areas. I hope 
 
 Here's a bit more about me besides my working life!
 - Favorite TV Show: Running man (faithfully watching it every weekend for over seven years ❤️❤️❤️)
-- Favorite Animal: All of them!! But mainly dags and dophines 🐬
+- Favorite Animal: All of them!! But mainly dogs and dophines 🐬
 - Favorite Food: Sushi，sashimi, and Chinese hand-made noodles 
 - Favorite Singers: Kim Chong Kook, and Faouzia Ouihya (can't say no to their charming voices)
 - Favority cocktail: Bee's Knees 🍸
