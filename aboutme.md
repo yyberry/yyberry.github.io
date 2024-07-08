@@ -8,10 +8,21 @@ subtitle: I am eager and ready to start full-time employment immediately.
 Hello! I'm Jingyu Huang, and I have a keen interest in the following areas:
 
 - Image Processing
-- Deep Learning
+- Deep Learning & Machine Learning
 - Data Science
 
-I am always excited to share my experiences and insights in these areas. I hope my notes and projects can help others on their learning journey. Thank you for visiting, and feel free to reach out if you'd like to know more about me!
+I am always excited to share my experiences and insights in these areas. I hope my notes and projects can help others on their learning journey. 
+
+Here's a bit more about me besides my working life!
+- Favorite TV Show: Running man (faithfully watching it every weekend for over seven years ❤️❤️❤️)
+- Favorite Animal: All of them!! But mainly dags and dophines 🐬
+- Favorite Food: Sushi，sashimi, and Chinese hand-made noodles 
+- Favorite Singers: Kim Chong Kook, and Faouzia Ouihya (can't say no to their charming voices)
+- Favority cocktail: Bee's Knees 🍸
+- Favourite Pass Times: Reading, DIY, and baking 🥐
+
+
+Thank you for visiting, and feel free to reach out if you'd like to know more about me!
 
 ### Education
 
