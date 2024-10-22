@@ -7,6 +7,8 @@ subtitle: I am eager and ready to start full-time employment immediately.
 
 Hello! I'm Jingyu Huang, and I have a keen interest in the following areas:
 
+- Web Development
+- Web Scraping
 - Image Processing
 - Deep Learning & Machine Learning
 - Data Science

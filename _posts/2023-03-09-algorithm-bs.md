@@ -145,41 +145,80 @@ Binary Search is a basic algorithm used to search specific value in an ordered a
 
   * Code:
 
-    ```java
-    class Solution {
-        public int minEatingSpeed(int[] piles, int h) {
-            // left and right boundary, left closed right open
-            // left boundary means the minimum amount Koko can eat
-            // right boundary is one more than the amount of bananas that may in a pile
-            int left = 1;
-            int right = 1000000000+1;
+    * Java:
     
-            while(left < right){
-                int mid = left + (right - left) / 2;
-                if(f(piles, mid) <= h) right = mid;
-                else left = mid + 1;
-            }
+      ```java
+      class Solution {
+          public int minEatingSpeed(int[] piles, int h) {
+              // left and right boundary, left closed right open
+              // left boundary means the minimum amount Koko can eat
+              // right boundary is one more than the amount of bananas that may in a pile
+              int left = 1;
+              int right = 1000000000+1;
+      
+              while(left < right){
+                  int mid = left + (right - left) / 2;
+                  if(f(piles, mid) <= h) right = mid;
+                  else left = mid + 1;
+              }
+      
+              return left;
+          }
+      
+          // auxiliary function
+          // where x is k, f(x) is the number of hours, target is h
+          public int f(int[] piles, int k){
+              int h = 0;
+              for(int i = 0; i < piles.length; i++){
+                  // compute how long it will take Koko to finish eating thi pile
+                  // be careful, if Koko eats all bananas in a pile, 
+                  // she will not eat any more bananas during this hour
+                  h += piles[i] / k;
+                  if(piles[i] % k != 0) h++;
+              }
+              return h;
+          }
+      }
+      ```
     
-            return left;
-        }
+    * Python:
     
-        // auxiliary function
-        // where x is k, f(x) is the number of hours, target is h
-        public int f(int[] piles, int k){
-            int h = 0;
-            for(int i = 0; i < piles.length; i++){
-                // compute how long it will take Koko to finish eating thi pile
-                // be careful, if Koko eats all bananas in a pile, 
-                // she will not eat any more bananas during this hour
-                h += piles[i] / k;
-                if(piles[i] % k != 0) h++;
-            }
-            return h;
-        }
-    }
-    ```
-
+      ```python
+      class Solution(object):
+          def minEatingSpeed(self, piles, h):
+              """
+              :type piles: List[int]
+              :type h: int
+              :rtype: int
+              """
+              """
+              x: eating speed
+              f(x): hours
+              target: minimum x
+              """
+              left = 1
+              right = 10**9 + 1
+              while(left < right):
+                  mid = left + (right - left) // 2
+                  if(self.f(piles, mid) <= h): # '=' means  
+                      right = mid # left close right open
+                  else: 
+                      left = mid + 1
+              return left
+      
+          def f(self, piles, x):
+              hours = 0
+              i, piles_len = 0, len(piles)
+              while(i < piles_len):
+                  hours += (piles[i] // x)
+                  if(piles[i] % x > 0):
+                      hours += 1
+                  i += 1
+              return hours
+           
+      ```
     
+      
 
 * **704** Bianry Search
 

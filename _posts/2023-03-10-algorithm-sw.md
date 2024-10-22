@@ -12,7 +12,7 @@ This is a learning note related to the sliding window algorithm. It contains the
 
 ## Sliding Window
 
-Sliding window protocol (Sliding Window Protocol), which is an application of TCP protocol, is used for flow control during network data transmission to avoid congestion. The protocol allows a sender to send multiple data packets before stopping and waiting for an acknowledgement. **Since the sender does not have to stop and wait for an acknowledgement every time a packet is sent. **Therefore, the protocol can accelerate the data transmission and improve the network throughput.
+Sliding Window Protocol, which is an application of TCP protocol, is used for flow control during network data transmission to avoid congestion. The protocol allows a sender to send multiple data packets before stopping and waiting for an acknowledgement. **Since the sender does not have to stop and wait for an acknowledgement every time a packet is sent. **Therefore, the protocol can accelerate the data transmission and improve the network throughput.
 
 The sliding window algorithm is actually the same as this protocol, but the implementation scene is different. **The sliding window algorithm operates on a string or array with a specific size,** rather than on the entire string and array, thus it can reduce the complexity of the problem and the nesting depth of the loop. **Sliding windows are mainly used in arrays and strings.**
 
