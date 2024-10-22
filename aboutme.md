@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: I am eager and ready to start full-time employment immediately.
+subtitle: I am eager and ready to start full-time employment as soon as possible.
 ---
 
 
